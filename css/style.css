@@ -1,0 +1,285 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul, li{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 50px;
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+ul{
+    padding-left: 244px;
+    gap: 115px;
+}
+
+
+ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #030305;
+}
+
+main{
+    padding-top: 104px;
+    padding-bottom: 154px;
+}
+
+header{
+    background: url(../img/background.png) no-repeat center center;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 110%;
+    color: #030305;
+    width: 855px;
+    padding-bottom: 40px;
+}
+
+main p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #030305;
+    width: 502px;
+}
+
+main a{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 53px;
+    gap: 15px;
+    background: #030305;
+    width: 334px;
+    margin-top: 60px;
+}
+
+.line{
+    height: 1px;
+    background: #E5E5E5;
+}
+
+.car{
+    width: 384px;
+}
+
+.characteristic{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0 17px 0;
+}
+
+.preim{
+    text-align: center;
+}
+
+.preim p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #030305;
+    width: 110px;
+}
+
+.preim p span{
+    font-weight: 700;
+}
+
+.bron-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 122px;
+    background: #030305;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.car-park h3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #030305;
+}
+
+.car h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #030305;
+}
+
+.car-park{
+    padding-top: 100px;
+}
+
+.park{
+    padding-top: 40px;
+    display: flex;
+    column-gap: 24px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+
+button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 110.5px;
+    background: #030305;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 121px;
+    width: 344px;
+    border: 0;
+}
+
+.price h3{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #030305;
+
+}
+
+.forma{
+    padding-top: 60px;
+    padding-right: 57px;
+}
+
+.price p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #5D5D5F;
+    padding-top: 20px;
+}
+
+.price{
+    padding-top: 100px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #5D5D5F;
+    width: 344px;
+    padding: 22px 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content-price{
+    display: flex;
+
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+/* Large: 992px - 1199px */
+@media (max-width: 1199px){
+    .container{
+        max-width: 960px;
+    }
+    .main{
+        background: url(../img/background.png) no-repeat right top 153px / 900px;
+    }
+    
+}
+
+/* Medium: 768px - 991px */
+@media (max-width: 991px){
+    .container{
+        max-width: 720px;
+	margin: 0 auto;
+    }
+}
+
+/* Small: 576px - 767px */
+@media (max-width: 767px){
+    .container{
+        max-width: 540px;
+		margin: 0 auto;
+    }
+}
+
+/* Extra Small: 320px - 575px */
+@media (max-width: 575px){
+    .container{
+	width: auto;
+        padding: 0 15px;
+        margin: 0;
+    }
+}
